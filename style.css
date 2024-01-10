@@ -233,7 +233,8 @@
 }
 
 .h-three {
-    max-width: 1070px;
+    max-width: 900px;
+    margin: auto;
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
@@ -348,4 +349,40 @@ input {
     font-weight: 600;
     text-transform: capitalize;
     border: none;
+}
+
+/* footer */
+footer {
+    background-color: #070211;
+}
+
+.footer-container {
+    padding: 120px 140px;
+}
+
+.connect {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.social-links{
+    justify-content: center;
+    display: flex;
+    padding: 48px 0;;
+}
+.s-link{
+    margin: 24px;
+}
+.extension{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-between;
 }
