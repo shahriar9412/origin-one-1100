@@ -1,0 +1,24 @@
+/* header */
+.banner {
+    color: aqua;
+    text-align: center;
+    font-family: Merriweather;
+    padding: 200px 448px;
+    background-image: url('images/Banner.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-small-text {
+    margin-top: 227px;
+    margin-bottom: 0;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner-large-text {
+    margin-top: 0;
+    font-size: 72px;
+    font-weight: 900;
+}
