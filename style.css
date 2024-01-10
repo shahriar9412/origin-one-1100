@@ -1,9 +1,10 @@
 /* header */
+/* banner */
 .banner {
     color: aqua;
     text-align: center;
     font-family: Merriweather;
-    padding: 200px 448px;
+    padding: 100px 448px;
     background-image: url('images/Banner.png');
     background-size: auto;
     background-repeat: no-repeat;
@@ -21,4 +22,38 @@
     margin-top: 0;
     font-size: 72px;
     font-weight: 900;
+}
+
+/* discount */
+.discount {
+    margin-top: 100px;
+    font-family: Inter;
+}
+
+.discount-text {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.d-text-one {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.d-text-two {
+    margin-top: 0;
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+.discount img{
+    display: block;
+    margin: auto;
 }
