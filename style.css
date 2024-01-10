@@ -286,10 +286,66 @@
     font-weight: 400;
     line-height: 32px;
 }
+
 /* products section */
-.products{
+.products {
     margin: 0 140px 100px 140px;
 }
-.product:hover{
+
+.product:hover {
     transform: scale(1.1);
+}
+
+/* subscribe section */
+.subscribe {
+    margin: 0 140px 100px 140px;
+    text-align: center;
+    background-color: #e4d1c4;
+    border-radius: 16px;
+    padding: 80px 0;
+
+}
+
+.s-1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+
+.s-2 {
+    margin-top: 0;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 896px;
+    margin: auto;
+    margin-bottom: 48px;
+}
+
+input {
+    width: 648px;
+    height: 72px;
+    border-radius: 50px 0 0 50px;
+    text-align: center;
+    font-size: 24px;
+    border: none;
+}
+
+.subscriber-button {
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: none;
 }
