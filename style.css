@@ -1,4 +1,5 @@
 /* header */
+
 /* banner */
 .banner {
     color: aqua;
@@ -103,17 +104,19 @@
 }
 
 /* main */
+
 /* time-table section */
 .time-table {
     margin: 0 140px;
     text-align: center;
-    background-color: #FFF8F3;
+    background-color: #e4d1c4;
     padding: 100px 380px;
     font-family: Inter;
     font-size: 24px;
     font-weight: 600;
     line-height: 56px;
     text-transform: capitalize;
+    border-radius: 16px;
 }
 
 .schedule {
@@ -135,4 +138,158 @@
     border: none;
     padding: 16px 32px;
     border-radius: 8px;
+}
+
+/* celebration section */
+.celebration {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 140px;
+    border-radius: 16px;
+}
+
+.c-one {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.c-two {
+    margin-top: 0;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.c-three {
+    margin-top: 0;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.celebration-image {
+    margin: 0 95px;
+    padding: 30px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+
+.c-four {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.c-five {
+    margin-top: 0;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+/* holidays section */
+.holidays {
+    margin: 0 140px;
+    text-align: center;
+}
+
+.h-one {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.h-two {
+    margin-top: 0;
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.h-2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.h-three {
+    max-width: 1070px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+/* advertise section */
+.advertise {
+    margin: 50px 140px 100px 140px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url('images/Rectangle\ 1.png'), url('images/Rectangle\ 2.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right top, bottom center;
+    padding-right: 330px;
+
+}
+
+/* porduct portfolio section */
+.product-portfolio {
+    margin: 0 140px 50px 140px;
+    text-align: left;
+    max-width: 896px;
+}
+
+.p-1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.p-2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.p-3 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+/* products section */
+.products{
+    margin: 0 140px 100px 140px;
+}
+.product:hover{
+    transform: scale(1.1);
 }
